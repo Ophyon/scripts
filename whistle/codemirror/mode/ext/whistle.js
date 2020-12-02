@@ -51,8 +51,8 @@ CodeMirror.defineSimpleMode("whistle", {
 			"token": "type"
 		},
 		{ 
-			regex: /#!?\(.*\)/,
-			token: "meta"
+			"regex": /#!?\(.*\)/,
+			"token": "meta"
 		},
 		{
 			"regex": /[\{\[\(]/,
