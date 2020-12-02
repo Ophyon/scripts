@@ -50,6 +50,10 @@ CodeMirror.defineSimpleMode("whistle", {
 			"regex": /:(\s*)(i32|i64|f32|f64|string|char|bool|none)/,
 			"token": "type"
 		},
+		{ 
+			regex: /#!?\(.*\)/,
+			token: "meta"
+		},
 		{
 			"regex": /[\{\[\(]/,
 			"indent": true
